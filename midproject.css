@@ -4,8 +4,8 @@ body{
 
 header{
     width: auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-bottom: 0px;
     padding-top: 10px;
     margin: 5px;
@@ -15,8 +15,6 @@ header{
 header nav{
     padding-top: 50px;
     float: right;
-    font-family: "NEXON Lv1 Gothic OTF Bold" whitesmoke;
-    font-size: 10px;
 }
 
 nav ul li{
@@ -24,25 +22,26 @@ nav ul li{
     padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    font-family: "NEXON Lv1 Gothic OTF";
+    font-weight: normal;
+    font-size: 10px;
 }
 
 nav ul li a{
     color: darkgray;
+    text-decoration: none;
 }
+
 
 .shop, .brand{
-    font-size: 40px;
-    font-family: bolder;
-    text-shadow: 1px 5px 5px darkgray;
-    font-family: "NEXON Lv1 Gothic OTF Bold";
+    padding-top: 50px;
+    font-family: "NEXON Lv1 Gothic OTF";
+    font-size: 25px;
+    color: #4AA8DD;
+    text-decoration: underline #FFAC00;
+    font-weight: bolder;
 }
 
-.clo{
-    font-size: 20px;
-    font-family: "Nexon Lv1 Gothic OTF";
-    margin-right: auto;
-    margin-left: auto;
-}
 
 .video{
     font-family: "Nexon Lv1 Gothic OTF";
@@ -52,8 +51,8 @@ nav ul li a{
 
 #chart{
     padding: 40px;
+    margin: auto;
 }
-
 
 
 section{
@@ -62,21 +61,29 @@ section{
     margin-right: auto;
     background-color: white;
     padding: 20px;
-}
-
-section h1{
-    background-color: beige;
     font-family: "NEXON Lv1 Gothic OTF";
 }
 
+
 footer{
     width: 80%;
+    padding-top: 50px;
     margin-right: auto;
     margin-left: auto;
-    color: gray;
-    background-color: white;
+    color: darkgray;
     text-align: center;
+    font-size: 6px;
+    font-family: "-윤고딕320";
 }
+
+
+table2, table3, table4{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
 
 ul{
     list-style-type: square;
@@ -84,37 +91,13 @@ ul{
 
 
 @font-face{
- font-family: "넥슨Lv고딕 OTF Light";
- src: url('넥슨Lv고딕 OTF Light.otf');
-}
-
-@font-face{
  font-family: "NEXON Lv1 Gothic OTF";
- src:url('NEXON Lv1 Gothic OTF.otf');
+ src: url('NEXON Lv1 Gothic OTF.otf');
 }
+
 
 @font-face{
- font-family: "넥슨Lv1고딕 OTF Bold";
- src:url('넥슨Lv1고딕 OTF Bold.otf');
+ font-family: "-윤고딕320";
+ src: url('-윤고딕320.ttf');
 }
 
-
-header nav{
- font-family: "넥슨Lv1고딕 OTF Bold";
-}
-
-body{
- font-family: "넥슨Lv1고딕 OTF Light";
-}
-
-
-table2{
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
