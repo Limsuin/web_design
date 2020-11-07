@@ -42,6 +42,29 @@ nav ul li a{
     font-weight: bolder;
 }
 
+.intro{
+    padding-top: 50px;
+    font-size: 15px;
+    text-align: center;
+    color: dimgray;
+    font-weight: bold;
+    background-color: #EDEDEB;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.intro2{
+    font-size: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    color: darkgray;
+    text-align: center;
+    background-color: #EDEDEB;
+}
+
+
+
 
 .video{
     font-family: "Nexon Lv1 Gothic OTF";
