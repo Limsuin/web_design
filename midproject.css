@@ -36,7 +36,7 @@ nav ul li a{
 .shop, .brand{
     padding-top: 50px;
     font-family: "NEXON Lv1 Gothic OTF";
-    font-size: 25px;
+    font-size: 30px;
     color: #4AA8DD;
     text-decoration: underline #FFAC00;
     font-weight: bolder;
@@ -74,6 +74,11 @@ nav ul li a{
 
 #chart{
     padding: 40px;
+    margin: auto;
+}
+
+#intro{
+    padding: auto;
     margin: auto;
 }
 
